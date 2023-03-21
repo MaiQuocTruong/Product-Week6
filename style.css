@@ -20,7 +20,6 @@ nav ul {
 
 nav ul li {
     padding: 15px 0;
-    cursor: pointer;
 }
 
 nav ul li.items {
@@ -66,6 +65,7 @@ nav ul li a {
 
 nav ul li:hover a {
     color: cyan;
+    font-weight: 690;
 }
 
 nav ul li i {
@@ -132,4 +132,45 @@ nav ul li.btn.hide i:before {
     color: #323842;
     font-size: 15px;
     font-weight: bold;
+}
+
+.rating-420 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#star1 {
+    position: relative;
+    right: -3.2%;
+}
+
+#txt420 {
+    position: relative;
+    right: 8%;
+}
+
+#txt420-99 {
+    position: relative;
+    right: 19.2%;
+}
+
+.share {
+    position: relative;
+    right: -20%;
+}
+
+.share11 {
+    position: relative;
+    right: -9.6%;
+}
+
+.heart {
+    position: relative;
+    right: -4%;
+}
+
+.save {
+    position: relative;
+    right: 6.5%;
 }
